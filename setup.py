@@ -42,7 +42,7 @@ setup(
     name='fonema',
     author='Rodrigo Pinheiro Matias',
     author_email='rodrigopmatias@gmail.com',
-    version='1.0.6',
+    version='1.0.7',
     ext_modules=[c_ext],
     include_dirs=['.', 'src'],
     url=''
