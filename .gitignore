@@ -2,3 +2,4 @@ build
 dist
 MANIFEST
 fonema.egg-info
+.vscode
