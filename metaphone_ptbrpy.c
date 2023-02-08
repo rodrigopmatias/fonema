@@ -26,6 +26,7 @@
 
 ***********************************************************************/
 
+#define PY_SSIZE_T_CLEAN    0
 
 #include <Python.h>
 #include "metaphone_ptbrpy.h"
@@ -43,10 +44,6 @@ static PyMethodDef module_methods[] = {
     {"phonetic", phonetic_phonetic, METH_VARARGS, phonetic_docstring},
     {NULL, NULL, 0, NULL}
 };
-
-//#ifndef PY_SSIZE_T_CLEAN
-#define PY_SSIZE_T_CLEAN    0
-//#endif
 
 /* Initialize the module */
 #if PY_MAJOR_VERSION >= 3
