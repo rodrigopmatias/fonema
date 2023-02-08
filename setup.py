@@ -42,8 +42,9 @@ setup(
     name='fonema',
     author='Rodrigo Pinheiro Matias',
     author_email='rodrigopmatias@gmail.com',
-    version='1.0.7',
+    description="Simple library, to transform names into phonemes in the Portuguese language of Brazil."
+    version='1.0.8',
     ext_modules=[c_ext],
     include_dirs=['.', 'src'],
-    url=''
+    url='https://github.com/rodrigopmatias/fonema'
 )
